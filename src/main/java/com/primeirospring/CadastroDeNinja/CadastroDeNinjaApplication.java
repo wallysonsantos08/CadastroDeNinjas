@@ -10,7 +10,7 @@ public class CadastroDeNinjaApplication {
 		SpringApplication.run(CadastroDeNinjaApplication.class, args);
 
 
-	
+		System.out.println("ola");
 	}
 
 }

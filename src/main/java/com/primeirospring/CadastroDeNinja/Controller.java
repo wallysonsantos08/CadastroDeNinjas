@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 //O ResquestMapping é como se fosse o mapa da sua rua, o mapa do meu sistema
 public class Controller {
 
-    @GetMapping("/boasVindas") //ele vai mostrar pro usuario os caminhos de rota, ele nao faz nada, é como se uma porta tivesse uma plaquinha informando onde essa porta vai, se voce não coloca o getmapping, sua porta fica sem placa e sem caminho, agora todo o mapa ta perdido e seu site vai dar erro
+    @GetMapping("/boasvindas")//sempre coloque o / antes
+     //ele vai mostrar pro usuario os caminhos de rota, ele nao faz nada, é como se uma porta tivesse uma plaquinha informando onde essa porta vai, se voce não coloca o getmapping, sua porta fica sem placa e sem caminho, agora todo o mapa ta perdido e seu site vai dar erro
     public String boasVindas(){
         return "Essa é minha primeira mensagem nessa rota";
     }
